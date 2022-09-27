@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa</title>
+    <link rel="stylesheet" href="estilos/geral.css" type="text/css">
+    <link rel="stylesheet" href="estilos/casastyle.css" type="text/css">
+</head>
+<body style="background-image: url(img/fundohome.jpg);">
+    <main>
+        <section id="sec1">
+            <div id="opcoes1">
+                <a href="#"id="estacionamento"><strong>Modo Estacionamento</strong>
+                </a>          
+                <a href="#"id="camera"><strong>Ativar Câmeras</strong>
+                </a>
+            </div>
+            <div class="func">
+                <button id="luz" class="btn" value="Acender">Ligar lâmpada</button>
+                <figure>
+                    <img id="lampada" src="img/lampadadesligada.png" alt="lâmpada desligada">
+                </figure> 
+            </div>
+            <div class="func func2">  
+                <button id="abrir" class="btn" value="Abrir">Abrir portão</button>
+                <figure>
+                    <img id="portao" src="img/portaofechado.png" alt="portão fechado">
+                </figure>      
+            </div>
+        </section>
+        <section id="sec2">
+            <div id="opcoes2">
+                <a href="#" id="assistente"><strong>Modo Assistente</strong>
+                </a>
+                <a href="#" id="relatorio"><strong>Ativar Relatório</strong>
+                </a>
+            </div>
+        </section>
+        <aside id="btns">
+            <div id="horario" onclick="diaSemana()">
+            </div>  
+            <div id="btnvoltar">
+                <a href="index.html"><img src="img/voltar.png" alt="voltar"></a>
+            </div>    
+        </aside>
+    </main>
+    <script src="interacao/relogio.js" type="text/javascript"></script>
+    <script src="interacao/funcoes.js" type="text/javascript"></script>
+</body>
+</html>
