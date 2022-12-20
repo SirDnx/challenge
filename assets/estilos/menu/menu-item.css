@@ -1,0 +1,6 @@
+.menu--item{
+    width: 23%;
+    height: auto;
+    align-self: center;
+    text-transform: capitalize;
+}

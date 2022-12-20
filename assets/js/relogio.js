@@ -1,6 +1,6 @@
 function diaSemana(){
 
-    var relogio = document.querySelector('#horario')
+    var relogio = document.querySelector('#hora')
     var data = new Date()
     var diaSemana = data.getDay()
 
@@ -47,7 +47,7 @@ function carregar(){
     segundo = '0' + segundo
     }
 
-    document.querySelector('#horario').innerHTML = `${hora}:${minuto}:${segundo}` 
+    document.querySelector('#hora').innerHTML = `${hora}:${minuto}:${segundo}` 
 }
 
 window.setInterval('carregar()', 1000)
