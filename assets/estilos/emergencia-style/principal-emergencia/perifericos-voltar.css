@@ -1,0 +1,8 @@
+.perifericos__voltar{
+    display: block;
+    width: 4rem;
+}
+
+.perifericos__voltar:hover{
+    transform: scale(1.1);
+}

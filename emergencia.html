@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergência</title>
+    <link rel="stylesheet" href="assets/estilos/geral.css">
+    <link rel="stylesheet" href="assets/estilos/bg-index.css">
+    <link rel="stylesheet" href="assets/estilos/caixa-centralizadora.css">
+    <link rel="stylesheet" href="assets/estilos/emergencia-style/principal-emergencia/principal.css">
+    <link rel="stylesheet" href="assets/estilos/index-style/periferico/periferico-hora.css">
+    <link rel="stylesheet" href="assets/estilos/emergencia-style/principal-emergencia/link.css">
+    <link rel="stylesheet" href="assets/estilos/emergencia-style/principal-emergencia/principal-perifericos.css">
+    <link rel="stylesheet" href="assets/estilos/emergencia-style/principal-emergencia/perifericos-voltar.css">
+    <link rel="stylesheet" href="assets/estilos/emergencia-style/principal-emergencia/perifericos-imagem.css">
 </head>
 <body>
-    
+    <div class="caixa__centralizadora">
+        <section class="principal">
+            <div class="principal__panico">
+                <a href="#" class="principal__panico__link link">ativar modo pânico</a>
+            </div>
+            <div class="principal__acompanhamento">
+                <a href="#" class="principal__acompanhamento__link link">ativar acompanhamento</a>
+            </div>
+            <div class="principal__assistencia">
+                <a href="#" class="principal__assistencia__link link">solicitar assistência</a>
+            </div>
+            <div class="principal__perifericos">
+                <div id="hora" onclick="diaSemana()" class="periferico--hora">
+                </div>
+                <a href="index.html" class="perifericos__voltar"><img src="assets/img/voltar.png" alt="botao voltar" class="perifericos__imagem"></a>
+            </div>
+        </section>
+    </div>
+    <script src="assets/js/relogio.js"></script>
 </body>
 </html>
