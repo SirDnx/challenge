@@ -1,0 +1,9 @@
+.assistente{
+    grid-area: assistente; 
+    grid-column: 1 / 3; 
+    grid-row: 2 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 3%;
+}

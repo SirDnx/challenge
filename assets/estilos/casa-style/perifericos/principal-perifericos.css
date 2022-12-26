@@ -1,7 +1,9 @@
 .principal__perifericos{
+    grid-area: perifericos;
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
     align-items: center;
     display: flex;
-    grid-area: btn-perifericos;
     justify-content: space-between;
     width: 100%;
 }

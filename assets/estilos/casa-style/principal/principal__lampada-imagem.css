@@ -1,0 +1,13 @@
+.principal__lampada-imagem, .principal__portao__imagem{
+    width: 6rem;
+}
+
+.principal__lampada-imagem--centro{
+    width: 45%;
+    text-align: center;
+}
+
+.principal__lampada-imagem--bg{
+    background-color: var(--cinza);
+    border-radius: 20px;
+}

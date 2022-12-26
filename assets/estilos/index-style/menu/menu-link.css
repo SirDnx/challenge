@@ -1,13 +1,13 @@
 .menu--link{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
     color: #ffffff;
-    transition: .3s all ease-in;
+    display: inline-block;
     margin-bottom: 3%;
+    transition: .3s all ease-in;
+    text-align: center;
+    width: 100%;
 }
 
 .menu--link:hover{
-    transform: scale(1.1);
     font-weight: bold;
+    transform: scale(1.1);
 }

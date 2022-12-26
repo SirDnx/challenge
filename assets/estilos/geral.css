@@ -2,15 +2,17 @@
 
 :root{
     --cor0: rgba(0, 0, 0, 0.918);
-    --botao-emergencia: #b31f1f;
+    --botao-emergencia: #b31f1fa4;
+    --botao-casa: rgba(0, 128, 0, 0.664);
+    --cinza: #cdcdcdcc;
     --fonte-geral: 'Montserrat', sans-serif;
 }
 
 *{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
     font-family: var(--fonte-geral);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 

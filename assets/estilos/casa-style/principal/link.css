@@ -1,0 +1,9 @@
+.link{
+    height: 40%;
+    color: var(--botao-casa);
+}
+
+.link:hover{
+    background-color: var(--botao-casa);
+    color: var(--cor0);
+}

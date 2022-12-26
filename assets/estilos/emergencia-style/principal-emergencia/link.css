@@ -1,18 +1,26 @@
 .link{
-    color: var(--botao-emergencia);
-    border: 4px solid var(--botao-emergencia);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    font-size: 2rem;
+    align-items: center;   
     background-color: transparent;
     border-radius: 15px;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
     transition: .3s all ease-in;
+    text-transform: capitalize;
+    border: 4px solid;
 }
 
 .link:hover{
     transform: scale(1.05);
-    color: var(--cor0);
-    background-color: var(--botao-emergencia);
 }
+
+.principal__panico__link, .principal__acompanhamento__link, .principal__assistencia__link{
+    color: var(--botao-emergencia);
+    height: 90%
+}
+
+.principal__panico__link:hover, .principal__acompanhamento__link:hover, .principal__assistencia__link:hover{
+    background-color: var(--botao-emergencia);
+    color: var(--cor0);
+}
+

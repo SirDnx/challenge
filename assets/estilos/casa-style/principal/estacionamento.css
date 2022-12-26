@@ -1,0 +1,8 @@
+.estacionamento{
+    grid-area: estacionamento;
+    grid-column: 1 / 2;
+    grid-row: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -1,8 +1,8 @@
 .periferico{
-    width: 800px;
-    height: 50px;
+    align-items: center;
     display: flex;
+    height: 50px;
     justify-content: space-between;
     padding: 2%;
-    align-items: center;
+    width: 800px;
 }

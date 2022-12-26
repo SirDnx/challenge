@@ -1,18 +1,18 @@
 .periferico--hora{
-    width: 30%;
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
     border-radius: 5px;
-    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer; 
     font-size: 2em;
     padding: 2% 0;  
+    text-align: center;
     transition: .3s all ease-in-out; 
-    cursor: pointer; 
+    width: 30%;
 }
 
 .periferico--hora:hover{
     background-color: #ffffff;
-    color: #000000;
     border: 1px solid #000000;
+    color: #000000;
 }
